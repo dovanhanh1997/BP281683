@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table>
+
+    <tr>
+        <th colspan="5"><input id="view" class="screen" value="0"></th>
+    </tr>
+    <tr>
+        <th><button class="number" value="1" onclick="inputValue(this.value)">1</button>
+        <th><button class="number" value="2" onclick="inputValue(this.value)">2</button>
+        <th><button class="number" value="3" onclick="inputValue(this.value)">3</button>
+        <th><button class="op" value="+" onclick="inputValue(this.value)">+</button>
+    </tr>
+    <tr>
+        <th><button class="number" value="4" onclick="inputValue(this.value)">4</button></th>
+        <th><button class="number" value="5" onclick="inputValue(this.value)">5</button>
+        <th><button class="number" value="6" onclick="inputValue(this.value)">6</button>
+        <th><button class="op" value="-" onclick="inputValue(this.value)">-</button>
+    </tr>
+    <tr>
+        <th><button class="number" value="7" onclick="inputValue(this.value)">7</button>
+        <th><button class="number" value="8" onclick="inputValue(this.value)">8</button>
+        <th><button class="number" value="9" onclick="inputValue(this.value)">9</button>
+        <th><button class="op" value="*" onclick="inputValue(this.value)">*</button></th>
+    </tr>
+    <tr>
+        <th><button class="op" onclick="del()">C</button></th>
+        <th><button class="number" value="0" onclick="inputValue(this.value)">0</button></th>
+        <th><button class="op" onclick="Calculate()">=</button>
+        <th><button class="op" value="/" onclick="inputValue(this.value)">/</button>
+    </tr>
+</table>
+
+<script src="my1.js"></script>
+<link rel="stylesheet" href="my1.css">
+
+</body>
+</html>
